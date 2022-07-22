@@ -2,19 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +14,59 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header div{
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.place-searcher {
+  width: 50%;
+  border-style: none;
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 10px;
+  box-shadow: 0 0 0 1.5pt #b8b8b8;
+}
+
+button {
+  margin: 20px 0;
+}
+
+.map{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-buttons{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+
+.map button{
+  border-style: none;
+  border-radius: 10px;
+  background-color: #007BEC;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+button{
+  border-style: none;
+  border-radius: 10px;
+  background-color: #007BEC;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-right: 15px;
 }
